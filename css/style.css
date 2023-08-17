@@ -1,0 +1,537 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"); 
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+a:hover {
+    text-decoration:solid;
+}
+
+/* a { */
+    /* color: rgb(255, 255, 255); */
+    /* background-color: transparent; */
+    /* text-decoration: none; */
+    /* font-weight: bold; */
+/* } */
+
+li {
+    list-style: none;
+}
+
+.font_icon {
+    font-size: 300%!important;
+    padding-bottom: 2%!important;
+}
+.main_div{
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    font-size: 1.5rem;
+    /* z-index: 240; */
+    /* font-size: 100%; */
+    /* font-weight:400; */
+}
+.navbar{
+    background-color: rgb(227, 176, 3)
+}
+
+/* Add blue color to the Search button in Navbar */
+
+.search_btn_navbar{
+    background-color:  #00bec9;
+    color: white; /* Optionally, you can set the text color to white for better contrast */
+    font-size: 100%;
+    border-radius: 0;
+}
+.search_btn_footer{
+    background-color:  #00bec9;
+    color: white; /* Optionally, you can set the text color to white for better contrast */
+    font-size: 70%;
+    border-radius: 0;
+}
+.search_input{
+    background-color: #fcc302;
+    font-size: 70%;
+    border: none;
+    color: #fff; 
+    border-radius: 0;   
+}
+
+/* Navbar  */
+
+.navbar-brand img {
+    width: 195px;
+    height: auto;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.bg-light {
+    background-color: rgb(211, 179, 70) !important;
+}
+
+/* .mobile_navbar_btn{ */
+    /* display: none; */
+    /* background: transparent; */
+    /* cursor: pointer; */
+/* } */
+.mobile_nav_icon{
+    width: 4rem;
+    height: 4rem;
+    color: #ffffff;
+}
+/* .mobile_nav_icon[name="close-outline"]{ */
+    /* display: none; */
+/* } */
+
+.navbar-toggler .navbar-toggler-icon {
+    background-color: #fff !important;
+}
+
+.main_sec {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.detailsec {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: 10%;
+}
+.img_sec{
+    position: relative;
+    display: inline-block; /* or block if you want the image to take the full width of its container */
+}
+img {
+    display: block; /* Ensure the image behaves as a block element within its container */
+    width: 100%;
+    height: auto;
+  }
+
+  /* This overlay for Section_two */
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(248 195 2 / 66%);
+    /* background-image: linear-gradient(rgb(255 , 194, 5,0.5 )); */
+    /* You can adjust the gradient colors and direction as needed */
+  }  
+
+  /* This overlay for Section_seventh */
+/* .color-overlay { */
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    /* width: 100%; */
+    /* height: 100%; */
+    /* background-color:rgba(248, 195, 2, 0.85); Replace with the desired color and opacity */
+    /* You can adjust the color and opacity as needed */
+  /* } */
+
+/* Base styles for the button */
+.buttonsec{
+    background-color: #fcc302;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: 2.5px solid #fff ;
+    border-radius: .6rem;
+    padding: 1rem 1rem;
+    width: 10rem;
+    height: 4rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+/* Style for the button when hovering */
+.buttonsec:hover {
+    background-color: #00bec9;
+    border-color: #00bec9;
+  }
+
+/* Style for the button when active/pressed */
+.buttonsec:active {
+  background-color: #00bec9;
+  border-color: #00bec9;
+}  
+.detailsec1 h1 {
+    font-size: 3.8rem;
+    font-family: Poppins;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    text-align: left;
+    font-weight: 600;
+}
+
+.detailsec1 p {
+    font-size: 1.7rem;
+    font-family: Poppins;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: left;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+.detailsec2 h1 {
+    font-size: 2.5rem;
+    font-family: Poppins;
+    color: rgb(82, 80, 69);
+    font-weight: 600;
+    line-height: 1;
+    text-align: left;
+    left: 137.933px;
+    top: 297.471px;
+    z-index: 237;
+}
+
+.detailsec2 p {
+    font-size: 25px;
+    font-family: Poppins;
+    font-weight: 400;
+    color: rgb(82, 80, 69);
+    line-height: 1.2;
+    text-align: left;
+    left: 138.252px;
+    top: 389.608px;
+    z-index: 234;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+nav.navbar {
+    padding: 20px 0px;
+}
+
+/* Card heading paragraph */
+
+.heading_sec{
+    font-size: 4rem;
+    line-height: 1.2;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 0%;
+}
+.paragraph_sec{
+    text-align: center;
+    font-family: Poppins;
+    color: #fff;
+    padding-bottom: 5%;
+    padding-top: 1%;
+    font-size: 2rem;
+}
+
+/* card section 1 */
+
+.cardsec1{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.cardsec1 .card{
+    max-width: 300px;
+    width:100%;
+    margin:0 auto;
+}
+.cardsec1 h1 {
+    font-size: 1.8rem;
+    font-family: Poppins;
+    line-height: 1;
+    font-weight: 600;
+    padding-top: 2px;
+    padding-bottom: 2px;
+ }
+.cardsec1 p{
+    font-size: 1.2rem;
+    font-family: Poppins;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: -4%;
+    font-weight:500;
+    }
+.cardsec1 a{
+    font-size: 15.5px;
+    font-family: Poppins;
+    font-weight: 300;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.cardsec1 .card_button{
+    background-color: #00bec9;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: 2.5px solid #00bec9;
+    border-radius: 35px;
+    padding: 5px 40px;
+    width: 16.0px;
+    height: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+/* Style for the button when hovering */
+.card_button:hover {
+    background-color: #00bec9;
+    border-color: #fff;
+  }
+
+/* Style for the button when active/pressed */
+.card_button:active {
+    background-color: #003974;
+    border-color: #ffffff;
+} 
+
+/* Details Section */
+
+/* .detailsstyle { */
+    /* width: 100%; */
+    /* height: 400px; */
+    /* background-image: linear-gradient(rgba(252, 195, 2, 0), rgba(252, 195, 2, 0)), url("../images/details.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 100% 100%; */
+/* } */
+
+
+ /*********** This overlay for Section_seventh ***************/
+.main_sec .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fcc302;
+    top: 0;
+    left: 0;
+    opacity: .7;
+}
+
+.main_sec .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* card section 1 */
+
+.cardsec2{
+    /* text-align: center; */
+    /* text-decoration-color: #0000; */
+    color: #fff;
+}
+
+.cardsec2 .card{
+    max-width: 300px;
+    width:100%;
+    margin:0 auto;
+}
+.cardsec2 h1 {
+    font-size: 1.4rem;
+    font-family: Poppins;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+ }
+.cardsec2 p{
+    font-size: 0.8rem;
+    font-family: Poppins;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-top: 0%;
+    margin-bottom: 0%;
+     }
+.cardsec2 a{
+    font-size: 0.9rem;
+    font-family: Poppins;
+    font-weight: 600;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: #88e1e6;
+}
+
+/* footer section */
+
+  .footer_sec{
+    width: 100%;
+    height:auto;
+    padding: 70px 0 20px 0;
+    background: #343434;
+    /* position: relative; */
+    color: #fff;
+    font-weight: 600;
+  }
+  .footer_sec li a{
+    color: #fff;
+    text-align: left;
+    font-weight: 300;
+    line-height: 1.5;
+  } 
+
+/* Font Styling */
+
+.font_icon{
+    font-size: 300%;
+    padding-bottom: 10%;
+}
+.card_h2{
+    font-size: 60%;
+    color: #88e1e6;
+    text-transform: capitalize;
+}
+
+/* footer */
+
+.input_search{
+    text-align: right;
+}
+.input_search h4{
+    font-size: 1rem;
+    margin-bottom: 9%;
+}
+.form_sec{
+    text-align: right;
+    justify-content: flex-end;
+}
+.social_sec{
+    text-align: right;
+    margin-top: 3%;
+}
+/* .form-inline{ */
+    /* align-items: right; !important */
+/* } */
+
+/* *******************Responsiveness************************** */
+
+@media only screen and (max-width:1199px){
+    .navbar-brand img {
+        width: 160px;
+    }
+    .img {
+        width: 90%;
+    }
+    .search_btn_navbar {
+        font-size: 75%;
+    }
+	.detailsec1 h1 {
+	    font-size: 2.8rem;
+        line-height: 1;
+	}
+    .detailsec1 p {
+        font-size: 1.3rem;
+        line-height: 1.2;
+    }
+    .detailsec2 h1 {
+        font-size: 1.8rem;
+        line-height: 1;
+    }
+    .detailsec2 p {
+        font-size: 1.2rem;
+        line-height: 1.2;
+    }
+    .heading_sec {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+    .paragraph_sec {
+        font-size: 1.7rem;
+        line-height: 1.2;
+    }
+    .cardsec1 h1 {
+        font-size: 1.5rem;
+        line-height: 1;
+    }
+    .cardsec1 p {
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+    .cardsec2 h1 {
+        font-size: 1.5rem;
+        line-height: 1;
+    }
+    .cardsec2 p {
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+    .search_input {
+        font-size: 50%;
+    }
+    .search_btn_footer {
+        font-size: 50%;
+    } 
+}
+@media only screen and (max-width:991px){
+    .cardsec1 .card_button {
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width:767px){
+}
+@media only screen and (max-width:480px){
+    .navbar-brand img {
+        width: 130px;
+    }
+    .img {
+        width: 90%;
+    }
+    .detailsec1 h1 {
+        font-size: 2.1rem;
+        line-height: 1;
+    }
+    .detailsec1 p {
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+    .detailsec2 h1 {
+        font-size: 1.5rem;
+        line-height: 1;
+    }
+    .detailsec2 p {
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+    .heading_sec {
+        font-size: 1.5rem;
+        line-height: 1.2;
+    }
+    .paragraph_sec {
+        font-size: 1.3rem;
+        line-height: 1.2;
+    }
+    .cardsec1 h1 {
+        font-size: 1.3rem;
+        line-height: 1;
+    }
+    .cardsec1 p {
+        font-size: 0.8rem;
+        line-height: 1.2;
+    }
+    .cardsec2 h1 {
+        font-size: 1.3rem;
+        line-height: 1;
+    }
+    .cardsec2 p {
+        font-size: 0.8rem;
+        line-height: 1.2;
+    }
+    .search_input {
+        font-size: 50%;
+        margin-top: 0%;
+        margin-bottom: -9%;
+        border-radius: 0%;
+    }
+    .search_btn_footer {
+        border-radius: 0%;
+        font-size: 50%;
+        margin-top: 0%;
+    } 
+}
